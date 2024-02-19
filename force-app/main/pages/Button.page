@@ -1,0 +1,18 @@
+<apex:page >
+    <apex:includeLightning />
+
+    <div id="lwcContainer"></div>
+
+    <script>
+        $Lightning.use("ltng:outApp", function() {
+            $Lightning.createComponent(
+                "c:form",
+                {},
+                "lwcContainer",
+                function(cmp) {
+                    console.log("LWC component was created");
+                }
+            );
+        });
+    </script>
+</apex:page>
