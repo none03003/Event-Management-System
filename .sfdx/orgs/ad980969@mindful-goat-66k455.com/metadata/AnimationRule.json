@@ -1,0 +1,41 @@
+{
+  "status": 0,
+  "result": [
+    {
+      "createdById": "005GB00000aB3cTYAS",
+      "createdByName": "Aatish Nirmal",
+      "createdDate": "2024-02-02T08:52:11.000Z",
+      "fileName": "animationRules/Attendee.animationRule",
+      "fullName": "Attendee",
+      "id": "4ZuGB000000PBSs0AO",
+      "lastModifiedById": "005GB00000aB3cTYAS",
+      "lastModifiedByName": "Aatish Nirmal",
+      "lastModifiedDate": "2024-02-02T08:52:33.000Z",
+      "type": "AnimationRule"
+    },
+    {
+      "createdById": "005GB00000aB3cTYAS",
+      "createdByName": "Aatish Nirmal",
+      "createdDate": "2024-02-02T08:25:23.000Z",
+      "fileName": "animationRules/Approved_Status.animationRule",
+      "fullName": "Approved_Status",
+      "id": "4ZuGB000000PBSn0AO",
+      "lastModifiedById": "005GB00000aB3cTYAS",
+      "lastModifiedByName": "Aatish Nirmal",
+      "lastModifiedDate": "2024-02-05T05:05:31.000Z",
+      "type": "AnimationRule"
+    },
+    {
+      "createdById": "005GB00000aB3cTYAS",
+      "createdByName": "Aatish Nirmal",
+      "createdDate": "2024-02-06T03:57:17.000Z",
+      "fileName": "animationRules/Request.animationRule",
+      "fullName": "Request",
+      "id": "4ZuGB000000PBTS0A4",
+      "lastModifiedById": "005GB00000aB3cTYAS",
+      "lastModifiedByName": "Aatish Nirmal",
+      "lastModifiedDate": "2024-02-06T03:57:17.000Z",
+      "type": "AnimationRule"
+    }
+  ]
+}

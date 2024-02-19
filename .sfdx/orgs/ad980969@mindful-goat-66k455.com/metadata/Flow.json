@@ -1,0 +1,96 @@
+{
+  "status": 0,
+  "result": [
+    {
+      "createdById": "005GB00000aB3cTYAS",
+      "createdByName": "Aatish Nirmal",
+      "createdDate": "2024-02-12T06:21:48.000Z",
+      "fileName": "flows/New_Event_Mail.flow",
+      "fullName": "New_Event_Mail",
+      "id": "301GB0000011at0YAA",
+      "lastModifiedById": "005GB00000aB3cTYAS",
+      "lastModifiedByName": "Aatish Nirmal",
+      "lastModifiedDate": "2024-02-14T09:17:28.000Z",
+      "manageableState": "unmanaged",
+      "type": "Flow"
+    },
+    {
+      "createdById": "005GB00000aB3cTYAS",
+      "createdByName": "Aatish Nirmal",
+      "createdDate": "2024-01-30T03:44:27.000Z",
+      "fileName": "flows/net_promoter_score.flow",
+      "fullName": "net_promoter_score",
+      "id": "301GB00000115zcYAA",
+      "lastModifiedById": "005GB00000aB3cTYAS",
+      "lastModifiedByName": "Aatish Nirmal",
+      "lastModifiedDate": "2024-01-30T03:44:27.000Z",
+      "manageableState": "unmanaged",
+      "type": "Flow"
+    },
+    {
+      "createdById": "005GB00000aB3cTYAS",
+      "createdByName": "Aatish Nirmal",
+      "createdDate": "2024-01-30T03:44:27.000Z",
+      "fileName": "flows/customer_satisfaction.flow",
+      "fullName": "customer_satisfaction",
+      "id": "301GB00000115zdYAA",
+      "lastModifiedById": "005GB00000aB3cTYAS",
+      "lastModifiedByName": "Aatish Nirmal",
+      "lastModifiedDate": "2024-01-30T03:44:27.000Z",
+      "manageableState": "unmanaged",
+      "type": "Flow"
+    },
+    {
+      "createdById": "005GB00000aB3cTYAS",
+      "createdByName": "Aatish Nirmal",
+      "createdDate": "2024-02-12T03:55:20.000Z",
+      "fileName": "flows/Attendee_send_email_flow.flow",
+      "fullName": "Attendee_send_email_flow",
+      "id": "301GB0000011aarYAA",
+      "lastModifiedById": "005GB00000aB3cTYAS",
+      "lastModifiedByName": "Aatish Nirmal",
+      "lastModifiedDate": "2024-02-12T04:03:58.000Z",
+      "manageableState": "unmanaged",
+      "type": "Flow"
+    },
+    {
+      "createdById": "005GB00000aB3cTYAS",
+      "createdByName": "Aatish Nirmal",
+      "createdDate": "2024-02-18T12:53:37.000Z",
+      "fileName": "flows/AutomateFeedbackSubmission.flow",
+      "fullName": "AutomateFeedbackSubmission",
+      "id": "301GB0000011ldwYAA",
+      "lastModifiedById": "005GB00000aB3cTYAS",
+      "lastModifiedByName": "Aatish Nirmal",
+      "lastModifiedDate": "2024-02-18T12:53:39.000Z",
+      "manageableState": "unmanaged",
+      "type": "Flow"
+    },
+    {
+      "createdById": "005GB00000aB3cTYAS",
+      "createdByName": "Aatish Nirmal",
+      "createdDate": "2024-02-12T03:37:39.000Z",
+      "fileName": "flows/Welcome.flow",
+      "fullName": "Welcome",
+      "id": "301GB0000011aYgYAI",
+      "lastModifiedById": "005GB00000aB3cTYAS",
+      "lastModifiedByName": "Aatish Nirmal",
+      "lastModifiedDate": "2024-02-12T03:37:43.000Z",
+      "manageableState": "unmanaged",
+      "type": "Flow"
+    },
+    {
+      "createdById": "005GB00000aB3cTYAS",
+      "createdByName": "Aatish Nirmal",
+      "createdDate": "2024-02-09T05:00:49.000Z",
+      "fileName": "flows/Welcome_back.flow",
+      "fullName": "Welcome_back",
+      "id": "301GB0000011XXiYAM",
+      "lastModifiedById": "005GB00000aB3cTYAS",
+      "lastModifiedByName": "Aatish Nirmal",
+      "lastModifiedDate": "2024-02-09T05:00:49.000Z",
+      "manageableState": "unmanaged",
+      "type": "Flow"
+    }
+  ]
+}
