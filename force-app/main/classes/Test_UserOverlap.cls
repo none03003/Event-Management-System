@@ -41,6 +41,5 @@ private class Test_UserOverlap {
         result = Database.insert(event2, true);
 
         System.assertEquals(true,result.isSuccess(), 'Failed to insert non-overlapping event: ' + result.getErrors());
-        system.assert(false, Organizer__c.Status__c);
     }
 }
