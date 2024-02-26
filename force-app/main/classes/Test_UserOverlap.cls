@@ -2,55 +2,45 @@
 private class Test_UserOverlap {
     @isTest
     static void testEventOverlap() {
-        Contact contact = new Contact();
-        contact.LastName = 'Test Name';
+        Contact contact = new Contact(LastName = 'Test Name');
         insert contact;
-        Organizer__c organizer = new Organizer__c();
-        organizer.Name = 'Test Organizer';
-        organizer.Contact__c= contact.Id;
+        Contact contact1 = new Contact(LastName = 'Test Name1');
+        insert contact1;
+        Organizer__c organizer = new Organizer__c(Name = 'Test Organizer', Contact__c = contact.Id);
         insert organizer;
-         Agenda__c agenda = new Agenda__c();
-        agenda.Name = 'Test Agenda';
-        agenda.Location__c = 'Test Location';
+        Organizer__c organizer1 = new Organizer__c(Name = 'Test Organizer1', Contact__c = contact1.Id);
+        insert organizer1;
+        Agenda__c agenda = new Agenda__c(Name = 'Test Agenda', Location__c = 'Test Location');
         insert agenda;
-        Speaker__c speaker = new Speaker__c ();
-        speaker.Name = 'Test Speaker';
-        speaker.Contact_Info__c = 'Test Contact Info';
-        insert speaker; 
-        Event_Manage__c event1 = new Event_Manage__c();
-            event1.Organizer__c = organizer.Id;
-            event1.Name = 'Event 1 ' + DateTime.now().getTime();
-            event1.Date_and_Time__c = System.now().addDays(8);
-            event1.End_Time__c = System.now().addDays(9);
-            event1.Location__c ='Test Location';
-            event1.Budget__c = 1000; 
-            event1.Agenda__c = agenda.Id;
-            event1.Speaker__c = speaker.Id;
-        insert event1;
-       /* event1 = [SELECT Organizer__c from Event_Manage__c WHERE Id = :event1.Id];
-        System.assert(false, event1.Organizer__c);*/
-        Event_Manage__c event2 = new Event_Manage__c();
-            event2.Organizer__c = organizer.Id;
-            event2.Name = 'Event 2 ' + DateTime.now().getTime();
-            event2.Date_and_Time__c = System.now().addDays(8);
-            event2.End_Time__c = System.now().addDays(9);
-            event2.Location__c ='Test Location';
-            event2.Budget__c = 1000; 
-            event2.Agenda__c = agenda.Id;
-            event2.Speaker__c = speaker.Id;
-        insert event2;
-      /*  event2 = [SELECT Organizer__c from Event_Manage__c WHERE Id = :event2.Id];
-        System.assert(false, event2.Organizer__c);*/ 
+        Speaker__c speaker = new Speaker__c(Name = 'Test Speaker', Email__c = 'test_1@gmail.com', Phone_No__c = '1234567890');
+        insert speaker;
+        Event_Manage__c event1 = new Event_Manage__c(
+            Organizer__c = organizer.Id,
+            Name = 'Event 1 ' + DateTime.now().getTime(),
+            Date_and_Time__c = System.now().addDays(8),
+            End_Time__c = System.now().addDays(9),
+            Location__c = 'Test Location',
+            Speaker__c = speaker.Id,
+            Agenda__c = agenda.Id
+        );
+        Database.SaveResult result = Database.insert(event1, false);
+        System.assertEquals(true,result.isSuccess(), 'Failed to insert event1: ' + result.getErrors());
+        
+        
+        Event_Manage__c event2 = new Event_Manage__c(
+            Organizer__c = organizer.Id,
+            Name = 'Event 2 ' + DateTime.now().getTime(),
+            Date_and_Time__c = System.now().addDays(8),
+            End_Time__c = System.now().addDays(9),
+            Location__c = 'Test Location',
+            Speaker__c = speaker.Id,
+            Agenda__c = agenda.Id
+        );
+        result = Database.insert(event2,false);
+        event2.Organizer__c = organizer1.Id;
+        result = Database.insert(event2, true);
+
+        System.assertEquals(true,result.isSuccess(), 'Failed to insert non-overlapping event: ' + result.getErrors());
+        system.assert(false, Organizer__c.Status__c);
     }
 }
-        
-       /* Test.startTest();
-        try {
-            insert event2;
-            System.assert(false, 'Event insertion should have failed due to overlap');
-        } catch (DMLException e) {
-            System.assert(e.getMessage().contains('Organizer is already assigned to another event'));
-        }
-        Test.stopTest();
-    }
-}*/

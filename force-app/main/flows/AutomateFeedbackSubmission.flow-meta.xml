@@ -59,7 +59,7 @@
         <inputAssignments>
             <field>Event__c</field>
             <value>
-                <elementReference>$Record.Name</elementReference>
+                <elementReference>$Record.Id</elementReference>
             </value>
         </inputAssignments>
         <inputAssignments>
@@ -83,15 +83,6 @@
         <connector>
             <targetReference>Check_if_the_Event_is_Completed</targetReference>
         </connector>
-        <doesRequireRecordChangedToMeetCriteria>true</doesRequireRecordChangedToMeetCriteria>
-        <filterLogic>and</filterLogic>
-        <filters>
-            <field>Status__c</field>
-            <operator>EqualTo</operator>
-            <value>
-                <stringValue>Completed</stringValue>
-            </value>
-        </filters>
         <object>Event_Manage__c</object>
         <recordTriggerType>Update</recordTriggerType>
         <triggerType>RecordAfterSave</triggerType>

@@ -13,10 +13,11 @@ public class AutomateFeedbackSubmissionTest {
         agenda.Name = 'Test Agenda';
         agenda.Location__c = 'Test Location';
         insert agenda;
-        Speaker__c speaker = new Speaker__c ();
+        Speaker__c speaker = new Speaker__c();
         speaker.Name = 'Test Speaker';
-        speaker.Contact_Info__c = 'Test Contact Info';
-        insert speaker; 
+        speaker.Email__c = 'Test Email';
+        speaker.Phone
+        insert speaker;
         // Create a test Event record
         Event_Manage__c testEvent = new Event_Manage__c(
             Name = 'Test Event',
