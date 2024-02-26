@@ -11,7 +11,7 @@
         <inputParameters>
             <name>SObjectRowId</name>
             <value>
-                <elementReference>$Record.Id__c</elementReference>
+                <elementReference>$Record.Id</elementReference>
             </value>
         </inputParameters>
         <nameSegment>Event_Manage__c.This_alert_for_when_we_got_new_event</nameSegment>
@@ -50,5 +50,5 @@
         <recordTriggerType>Create</recordTriggerType>
         <triggerType>RecordAfterSave</triggerType>
     </start>
-    <status>Obsolete</status>
+    <status>Active</status>
 </Flow>

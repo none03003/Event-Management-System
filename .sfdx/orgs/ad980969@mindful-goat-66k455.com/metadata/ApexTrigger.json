@@ -1,0 +1,57 @@
+{
+  "status": 0,
+  "result": [
+    {
+      "createdById": "005GB00000aB3cTYAS",
+      "createdByName": "Aatish Nirmal",
+      "createdDate": "2024-02-16T09:08:45.000Z",
+      "fileName": "triggers/UpdateEventStatusTrigger.trigger",
+      "fullName": "UpdateEventStatusTrigger",
+      "id": "01qGB000001K4ggYAC",
+      "lastModifiedById": "005GB00000aB3cTYAS",
+      "lastModifiedByName": "Aatish Nirmal",
+      "lastModifiedDate": "2024-02-16T09:08:45.000Z",
+      "manageableState": "unmanaged",
+      "type": "ApexTrigger"
+    },
+    {
+      "createdById": "005GB00000aB3cTYAS",
+      "createdByName": "Aatish Nirmal",
+      "createdDate": "2024-02-18T12:57:21.000Z",
+      "fileName": "triggers/AutomateFeedbackSubmissionTest.trigger",
+      "fullName": "AutomateFeedbackSubmissionTest",
+      "id": "01qGB000001K5p6YAC",
+      "lastModifiedById": "005GB00000aB3cTYAS",
+      "lastModifiedByName": "Aatish Nirmal",
+      "lastModifiedDate": "2024-02-18T12:57:21.000Z",
+      "manageableState": "unmanaged",
+      "type": "ApexTrigger"
+    },
+    {
+      "createdById": "005GB00000aB3cTYAS",
+      "createdByName": "Aatish Nirmal",
+      "createdDate": "2024-02-15T16:47:07.000Z",
+      "fileName": "triggers/UserOverlap.trigger",
+      "fullName": "UserOverlap",
+      "id": "01qGB000001K46cYAC",
+      "lastModifiedById": "005GB00000aB3cTYAS",
+      "lastModifiedByName": "Aatish Nirmal",
+      "lastModifiedDate": "2024-02-23T11:37:21.000Z",
+      "manageableState": "unmanaged",
+      "type": "ApexTrigger"
+    },
+    {
+      "createdById": "005GB00000aB3cTYAS",
+      "createdByName": "Aatish Nirmal",
+      "createdDate": "2024-02-12T05:58:21.000Z",
+      "fileName": "triggers/EventManageTrigger.trigger",
+      "fullName": "EventManageTrigger",
+      "id": "01qGB000001Jw6kYAC",
+      "lastModifiedById": "005GB00000aB3cTYAS",
+      "lastModifiedByName": "Aatish Nirmal",
+      "lastModifiedDate": "2024-02-15T06:36:12.000Z",
+      "manageableState": "unmanaged",
+      "type": "ApexTrigger"
+    }
+  ]
+}

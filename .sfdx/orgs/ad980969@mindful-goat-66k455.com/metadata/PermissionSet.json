@@ -1,0 +1,123 @@
+{
+  "status": 0,
+  "result": [
+    {
+      "createdById": "005GB00000aB3cTYAS",
+      "createdByName": "Aatish Nirmal",
+      "createdDate": "2024-02-13T06:26:17.000Z",
+      "fileName": "permissionsets/recipes.permissionset",
+      "fullName": "recipes",
+      "id": "0PSGB000004PqzD4AS",
+      "lastModifiedById": "005GB00000aB3cTYAS",
+      "lastModifiedByName": "Aatish Nirmal",
+      "lastModifiedDate": "2024-02-13T06:26:19.000Z",
+      "manageableState": "installedEditable",
+      "type": "PermissionSet"
+    },
+    {
+      "createdById": "005GB00000aDCGuYAO",
+      "createdByName": "DevOps Center",
+      "createdDate": "2024-02-13T05:18:05.000Z",
+      "fileName": "permissionsets/sf_devops_NamedCredentials.permissionset",
+      "fullName": "sf_devops_NamedCredentials",
+      "id": "0PSGB000004PoAH4A0",
+      "lastModifiedById": "005GB00000aDCGuYAO",
+      "lastModifiedByName": "DevOps Center",
+      "lastModifiedDate": "2024-02-13T05:18:05.000Z",
+      "manageableState": "unmanaged",
+      "type": "PermissionSet"
+    },
+    {
+      "createdById": "005GB00000aDCGuYAO",
+      "createdByName": "DevOps Center",
+      "createdDate": "2024-02-13T05:18:06.000Z",
+      "fileName": "permissionsets/sf_devops_InitializeEnvironments.permissionset",
+      "fullName": "sf_devops_InitializeEnvironments",
+      "id": "0PSGB000004PoAI4A0",
+      "lastModifiedById": "005GB00000aDCGuYAO",
+      "lastModifiedByName": "DevOps Center",
+      "lastModifiedDate": "2024-02-13T05:18:06.000Z",
+      "manageableState": "unmanaged",
+      "type": "PermissionSet"
+    },
+    {
+      "createdById": "005GB00000aB3cTYAS",
+      "createdByName": "Aatish Nirmal",
+      "createdDate": "2024-02-05T08:48:47.000Z",
+      "fileName": "permissionsets/Viewer.permissionset",
+      "fullName": "Viewer",
+      "id": "0PSGB000004F4XE4A0",
+      "lastModifiedById": "005GB00000aB3cTYAS",
+      "lastModifiedByName": "Aatish Nirmal",
+      "lastModifiedDate": "2024-02-05T09:08:02.000Z",
+      "manageableState": "unmanaged",
+      "type": "PermissionSet"
+    },
+    {
+      "createdById": "005GB00000aB3cTYAS",
+      "createdByName": "Aatish Nirmal",
+      "createdDate": "2024-02-05T07:07:26.000Z",
+      "fileName": "permissionsets/Event.permissionset",
+      "fullName": "Event",
+      "id": "0PSGB000004F1oQ4AS",
+      "lastModifiedById": "005GB00000aB3cTYAS",
+      "lastModifiedByName": "Aatish Nirmal",
+      "lastModifiedDate": "2024-02-05T07:08:13.000Z",
+      "manageableState": "unmanaged",
+      "type": "PermissionSet"
+    },
+    {
+      "createdById": "005GB00000aB3ceYAC",
+      "createdByName": "Automated Process",
+      "createdDate": "2024-01-30T03:47:22.000Z",
+      "fileName": "permissionsets/sfdcInternalInt__sfdc_scrt2.permissionset",
+      "fullName": "sfdcInternalInt__sfdc_scrt2",
+      "id": "0PSGB000004CPbj4AG",
+      "lastModifiedById": "005GB00000aB3ceYAC",
+      "lastModifiedByName": "Automated Process",
+      "lastModifiedDate": "2024-01-30T03:47:23.000Z",
+      "manageableState": "unmanaged",
+      "namespacePrefix": "sfdcInternalInt",
+      "type": "PermissionSet"
+    },
+    {
+      "createdById": "005GB00000aB3cTYAS",
+      "createdByName": "Aatish Nirmal",
+      "createdDate": "2024-02-15T09:19:07.000Z",
+      "fileName": "permissionsets/Attendees_rule.permissionset",
+      "fullName": "Attendees_rule",
+      "id": "0PSGB000004Qh9E4AS",
+      "lastModifiedById": "005GB00000aB3cTYAS",
+      "lastModifiedByName": "Aatish Nirmal",
+      "lastModifiedDate": "2024-02-20T06:57:35.000Z",
+      "manageableState": "unmanaged",
+      "type": "PermissionSet"
+    },
+    {
+      "createdById": "005GB00000aB3cTYAS",
+      "createdByName": "Aatish Nirmal",
+      "createdDate": "2024-02-02T03:10:17.000Z",
+      "fileName": "permissionsets/All_access.permissionset",
+      "fullName": "All_access",
+      "id": "0PSGB000004ECr04AG",
+      "lastModifiedById": "005GB00000aB3cTYAS",
+      "lastModifiedByName": "Aatish Nirmal",
+      "lastModifiedDate": "2024-02-02T03:13:16.000Z",
+      "manageableState": "unmanaged",
+      "type": "PermissionSet"
+    },
+    {
+      "createdById": "005GB00000aB3cTYAS",
+      "createdByName": "Aatish Nirmal",
+      "createdDate": "2024-02-13T06:26:16.000Z",
+      "fileName": "permissionsets/Access_Restricted_UI.permissionset",
+      "fullName": "Access_Restricted_UI",
+      "id": "0PSGB000004PqzC4AS",
+      "lastModifiedById": "005GB00000aB3cTYAS",
+      "lastModifiedByName": "Aatish Nirmal",
+      "lastModifiedDate": "2024-02-13T06:26:16.000Z",
+      "manageableState": "installedEditable",
+      "type": "PermissionSet"
+    }
+  ]
+}
